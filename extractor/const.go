@@ -7,7 +7,7 @@ package extractor
 
 import "errors"
 
-var isTesting = false
+var isTesting = true
 
 var (
 	errTypeCheck = errors.New("type check error")
